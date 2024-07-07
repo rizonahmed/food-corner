@@ -1,0 +1,295 @@
+ 
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Satisfy&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+ 
+ 
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: "Work Sans", sans-serif;
+ }
+
+ /* <!-- section 1 start  here  --> */
+
+ .hero{
+height: 55rem;
+background-image: linear-gradient(0.00deg, rgb(16, 16, 16) -19.5%,rgba(16, 16, 16, 0) 100%), url(hero-bg.png);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+display: flex;
+justify-content: center;
+align-items: center;
+
+ }
+
+ .hero-sec{
+width: 50%;
+
+ }
+.hero-sec .new-some{
+color: aliceblue;
+font-size: 2rem;
+font-weight: 600;
+line-height: 3rem;
+text-align: center;
+opacity: .8;
+
+}
+
+.not-now{
+text-align:center;
+color: rgb(250, 253, 255);
+font-size: 3rem;
+font-weight: bold;
+line-height: 3.5rem;
+}
+.its-time{
+text-align: center;
+color: rgb(245, 245, 245);
+line-height: 1.2rem;
+font-size: .9rem;
+padding-top: 1.5rem;
+font-family: "Playwrite GB S", cursive;
+font-optical-sizing: auto;
+
+}
+.bobo{
+text-align: center;
+padding-top: 3rem;
+}
+
+.btn{
+padding:1.1rem 2.5rem;
+background-color: rgb(60, 196, 6);
+border-radius: .8rem;
+font-size: .9rem;
+font-weight: bold;
+border: none;
+outline: none; 
+cursor: pointer;
+}
+
+/* <!-- section 1 end  here  --> */
+
+
+/* <!-- section 2 start  here  --> */
+.container{
+text-align: center;
+margin: auto;
+width: 30%;
+padding-top: 3rem;
+}
+.halla{
+padding-bottom: 1.3rem;
+font-weight: 500;
+opacity: .8;
+font-size: 1.7rem;
+
+}
+.bul{
+font-size: 2.7rem;
+
+}
+
+.all-boxs{
+display: flex;
+gap: 4rem;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+margin-top: 3rem;
+ 
+}
+
+.box-one:hover{
+  box-shadow: 3px 0px 15px 2px rgb(135, 148, 148);
+
+}
+
+.spn{
+margin: 2.5rem auto;
+text-align: center;
+cursor: pointer;
+}
+.spn > span{
+background-color:  #E5f6D9;
+padding:.9rem 2rem ;
+border-radius: .3rem;
+font-weight: bolder;
+}
+
+.under-side{
+text-align: center;
+
+}
+
+.mix-er{
+font-weight: 600;
+font-family: "Satisfy", cursive;
+}
+.punish{
+font-size: .9rem;
+margin-top: 1rem;
+font-family: "Playwrite GB S", cursive;
+font-optical-sizing: auto;
+
+}
+
+.new-btn{
+text-align: center;
+margin: 3.5rem;
+
+}
+.new-btn > button{
+background-color: rgb(8, 182, 8);
+border: none;
+outline: none;
+padding: .9rem 1.7rem;
+border-radius: .4rem;
+font-size: .9;
+color: #E5f6D9;
+font-weight: bolder;
+cursor: pointer;;
+}
+
+
+
+/* <!-- section 2 end here  --> */
+
+/* section 3 start form here  */
+
+
+.two-cont{
+   margin: 5rem auto;
+display: flex;
+text-align: center;
+justify-content: space-between;
+flex-wrap: wrap;
+overflow: hidden;
+}
+
+.for-text{
+margin: 7rem auto;
+text-align:center;
+width: 40%;
+}
+.for-text>h1{
+font-size: 2.5rem;
+opacity: .8;
+}
+.no-mean{
+padding: 1.5rem 0;
+opacity: .8;
+}
+
+.follow{
+font-size: 1.2rem;
+font-weight: bolder;
+font-family: "Playwrite GB S", cursive;
+font-optical-sizing: auto;
+opacity: .8;
+}
+.for-icon{
+margin: 1.5rem auto;
+
+}
+
+.for-icon > i{
+font-size: 1.7rem;
+padding: 0 .5rem;
+
+}
+.fa-facebook{
+color:#0866FF;
+}
+.fa-youtube{
+color: #FF0000;
+}
+.fa-instagram{
+ color:  #C800D9;
+}
+.fa-pinterest{
+color:   #E40229;
+}
+
+
+/* section 3 end form here  */
+
+/* footer start here  */
+
+
+
+.last-part{
+height: 35rem ;
+background-image:linear-gradient(rgba(249, 247, 247, 0.7),rgba(246, 239, 239, 0.7)), url(social-bg.png);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+
+}
+
+
+
+.about-me{
+text-align: center;
+max-width: 50%;
+margin: auto;
+padding-top:10rem ;
+ 
+}
+   .about-me> h1{
+font-size: 2.5rem;
+}
+.about-me> P{
+margin: 3rem 0;
+font-size: 1.4rem;
+font-family: "Playwrite GB S", cursive;
+font-optical-sizing: auto;
+font-weight: bolder;
+}
+
+ 
+
+/* footer end here  */
+.copy{
+background-color: black;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: .7rem 0;
+}
+.left{
+padding: .9rem .2rem;
+margin: 0 2rem;
+
+}
+.year{
+color: white;
+font-size: .8rem;
+padding: .5rem 2rem ;
+}
+.my-name{
+color: #ff00c8;
+cursor: pointer;
+font-weight: bolder;
+font-family: "Playwrite GB S", cursive;
+font-optical-sizing: auto;
+}
+
+.right{
+padding-right: 3rem;
+}
+.right ul li{
+color: white;
+display:inline;
+padding: .5rem 1rem;
+cursor: pointer;
+
+}
+
+.right ul li:hover{
+color: #C800D9;
+font-weight: bolder;
+
+}
